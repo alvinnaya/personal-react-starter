@@ -16,7 +16,9 @@
     "jsx": "react-jsx",
     "declaration": true,
     "emitDeclarationOnly": true,
-    "allowImportingTsExtensions": true,                              
+    "allowImportingTsExtensions": true,
+    "noImplicitAny": false,           
+                       
   },
   "include": ["./src", "index.tsx"],
   
